@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+	<AddIn Type="Application">
+		<Name>Application ExportSelectedAs</Name>
+		<Assembly>ExportSelectedAs.dll</Assembly>
+		<FullClassName>ExportSelectedAs.App</FullClassName>
+		<ClientId>190ba0ac-e181-40ba-98a6-ed5ee7bd77cf</ClientId>
+		<VendorId>JakkeLab</VendorId>
+		<VendorDescription>By JakkeLab</VendorDescription>
+	</AddIn>
+</RevitAddIns>

@@ -46,7 +46,9 @@ namespace ExportSelectedAs
 
             //파일 있는지 한번 검사
             string folderPath = fldDlg.SelectedPath;
-            var fileNames = Directory.GetFiles(folderPath).ToList();
+            var filePaths = Directory.GetFiles(folderPath).ToList();
+            var fileNames = filePaths.Select(x => Path.GetFileName(x)).ToList();
+
             List<string> fileNamesToExport = new List<string>();
             foreach (Reference pickedRef in pickedRefs)
             {

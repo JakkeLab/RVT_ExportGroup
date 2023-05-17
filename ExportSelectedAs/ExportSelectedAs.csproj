@@ -62,7 +62,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="RevitAddin.addin" />
+    <None Include="ExportSelectedAs.addin" />
   </ItemGroup>
   <ItemGroup>
     <Page Include="DocablePaneUI\MyDockablePane.xaml">
